@@ -7,7 +7,7 @@ import com.javatutoriales.patrones.factorymethod.estrategiaA.dominio.tarjetas.Ta
 import com.javatutoriales.patrones.factorymethod.estrategiaA.dominio.tarjetas.TarjetaOro;
 import com.javatutoriales.patrones.factorymethod.estrategiaA.dominio.tarjetas.TarjetaPlata;
 
-public class TarjetaLealtadFactoryNumeroCompras extends TarjetaLealtadFactory {
+public class TarjetaLealtadFactoryNumeroCompras implements TarjetaLealtadFactory {
 
     private static final int MINIMO_COMPRAS_PLATA = 5;
     private static final int MINIMO_COMPRAS_ORO = 10;
