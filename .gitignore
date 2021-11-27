@@ -7,6 +7,10 @@
 # Gradle
 ######################
 .gradle
+/gradle/
+settings.gradle
+gradlew
+gradlew.bat
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
@@ -32,9 +36,6 @@ local.properties
 
 ### STS ###
 .apt_generated
-.classpath
-.factorypath
-.project
 .settings
 .springBeans
 .sts4-cache
@@ -73,7 +74,6 @@ local.properties
 ######################
 # Directories
 ######################
-/bin/
 /deploy/
 
 ######################
