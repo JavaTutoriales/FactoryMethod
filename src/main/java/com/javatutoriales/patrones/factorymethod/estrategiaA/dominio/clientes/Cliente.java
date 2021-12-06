@@ -12,4 +12,9 @@ public class Cliente {
     private float totalCompras;
 
     private TarjetaLealtad tarjetaLealtad;
+
+    public void compra(float montoCompra) {
+        totalCompras += montoCompra;
+        numeroCompras++;
+    }
 }

@@ -1,6 +1,6 @@
 package com.javatutoriales.patrones.factorymethod.estrategiaA.dominio.tarjetas;
 
-public class TarjetaOro extends TarjetaLealtad {
+public class TarjetaOro implements TarjetaLealtad {
 
     private static final float PORCENTAJE_DESCUENTO_PRECIO_BAJO = 10f / 100f; // 10% de descuento
     private static final float PORCENTAJE_DESCUENTO_PRECIO_ALTO = 5f / 100f; // 5% de descuento
