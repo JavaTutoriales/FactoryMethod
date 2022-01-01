@@ -1,5 +1,8 @@
 ![JavaTutoriales](img/LogoGit.png)
 
+![](https://img.shields.io/badge/JT-Published-blue)
+![](https://img.shields.io/badge/JT-Design%20Patterns-orange)
+
 # Factory Method
 
 ## 👋 Bienvenid@s
